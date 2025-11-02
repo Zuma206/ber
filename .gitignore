@@ -4,6 +4,9 @@ ber
 # Dependancies
 packages
 
+# Tooling
+compile_commands.json
+
 # Prerequisites
 *.d
 
