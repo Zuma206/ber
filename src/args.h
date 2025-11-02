@@ -12,8 +12,9 @@ typedef struct ber_args {
 } ber_args_t;
 
 /**
- * Parse command-line arguments into struct from arguments array
+ * Parse command-line arguments into struct from arguments array. Returns true
+ * on success and false on error.
  * */
-bool ber_get_args(ber_args_t *args, char *argv[], int argc);
+bool ber_get_args(ber_args_t *args, int argc, char *argv[]);
 
 #endif
